@@ -4,7 +4,7 @@
 # to remove opsi 4.0 specific documentation.
 
 if [ -e pub.tar ]; then
-    rm pub.tar || true
+    rm pub.tar
 fi
 
 rm opsi-getting-started-de.pdf

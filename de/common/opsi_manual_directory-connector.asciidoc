@@ -163,6 +163,7 @@ NOTE: Weitere Verbindungs-Optionen werden auf Nachfrage implementiert.
 ===== Verbindung zu UCS konfigurieren
 
 Für eine Verbindung zu Univention Corporate Server muss für die Verbindung als Benutzername der komplette DN verwendet werden.
+Dabei kommt unter UCS `uid=` anstatt `dn=` zum Einsatz.
 
 Soll das Verzeichnis komplett durchsucht werden, kann für `search_base` die Ausgabe des Befehls `ucr get ldap/base` verwendet werden.
 

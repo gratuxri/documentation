@@ -164,6 +164,7 @@ Since version 14 it is possible to test the connection to the directory through 
 ===== Configure connnection for UCS
 
 For a connection to Univention Corporate Server the full DN hast do be used as username.
+Instead of `dn=` one has to use `uid=`.
 
 For a search through the complete directory you can set `search_base` to the output of the command `ucr get ldap/base`.
 
